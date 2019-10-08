@@ -1,0 +1,16 @@
+{
+    "works": [
+        {
+            "trabalho_id": 99909,
+            "descricao": "Script de instalação do pg",
+            "turma_id": 10912,
+            "turma": "PgB. T01",
+            "curso": "Postgres Básico",
+            "data": "2019-09-01",
+            "data_limite": "2019-09-22",
+            "nota": 5,
+            "enviado": true,
+            "aluno_id": 98993
+        }
+    ]
+}

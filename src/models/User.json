@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+            "usuario_id": 98992,
+            "nome": "Carlos",
+            "login": "carlos@escola.com.br",
+            "professor": true
+        },
+        {
+            "usuario_id": 98993,
+            "nome": "Matheus",
+            "login": "matheus@escola.com.br",
+            "professor": false
+        },
+        {
+            "usuario_id": 98994,
+            "nome": "João",
+            "login": "joao@escola.com.br",
+            "professor": false
+        },
+        {
+            "usuario_id": 98995,
+            "nome": "José",
+            "login": "jose@escola.com.br",
+            "professor": false
+        }
+    ]
+}
