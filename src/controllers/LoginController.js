@@ -1,7 +1,7 @@
 module.exports = {
     login(req, res) {
         const { email } = req.body;
-        const users = require('../models/User').users;
+        const users = require('../models/User');
         let user = {};
 
         for (const item of users) {

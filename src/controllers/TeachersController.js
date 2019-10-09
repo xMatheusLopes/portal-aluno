@@ -5,14 +5,22 @@ module.exports = {
         const { rate } = req.body
 
         let works = require('../models/StudentWorkClass');
+        let studentsWorks = require('../models/StudentWorks');
 
-        for (const [index, item] of works.students_works.entries()) {
+
+        for (const [index, item] of works.entries()) {
             if (item.trabalho_id == work_id) {
-                works.students_works[index].nota = rate;
+                works[index].nota = rate;
+            }
+        }
+        for (const [index, item] of studentsWorks.entries()) {
+            if (item.trabalho_id == work_id) {
+                studentsWorks[index].nota = rate;
             }
         }
 
         fs.writeFileSync('src/models/StudentWorkClass.json', JSON.stringify(works, null, 4));
+        fs.writeFileSync('src/models/StudentWorks.json', JSON.stringify(studentsWorks, null, 4));
 
         res.json({ ok: true });
     }

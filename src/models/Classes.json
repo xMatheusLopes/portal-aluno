@@ -1,31 +1,29 @@
-{
-    "classes": [
-        {
-            "turma_id": 10912,
-            "turma": "PgB. T01",
-            "curso": "Postgres Básico",
-            "materia_atual": "Configurando pgBouncer",
-            "periodo": "Tarde",
-            "dias": "Seg, Qua, Sex",
-            "professor": 98992
-        },
-        {
-            "turma_id": 10913,
-            "turma": "MsB. T03",
-            "curso": "MySQL Básico",
-            "materia_atual": "Configurando ambiente",
-            "periodo": "Manhã",
-            "dias": "Ter, Qui",
-            "professor": 98992
-        },
-        {
-            "turma_id": 10914,
-            "turma": "MgB. T04",
-            "curso": "MongoDB Básico",
-            "materia_atual": "Primeiras queries",
-            "periodo": "Noite",
-            "dias": "Seg, Sex",
-            "professor": 98992
-        }
-    ]
-}
+[
+    {
+        "turma_id": 10912,
+        "turma": "PgB. T01",
+        "curso": "Postgres Básico",
+        "materia_atual": "Configurando pgBouncer",
+        "periodo": "Tarde",
+        "dias": "Seg, Qua, Sex",
+        "professor": 98992
+    },
+    {
+        "turma_id": 10913,
+        "turma": "MsB. T03",
+        "curso": "MySQL Básico",
+        "materia_atual": "Configurando ambiente",
+        "periodo": "Manhã",
+        "dias": "Ter, Qui",
+        "professor": 98992
+    },
+    {
+        "turma_id": 10914,
+        "turma": "MgB. T04",
+        "curso": "MongoDB Básico",
+        "materia_atual": "Primeiras queries",
+        "periodo": "Noite",
+        "dias": "Seg, Sex",
+        "professor": 98992
+    }
+]

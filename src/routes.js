@@ -3,7 +3,10 @@ const app = express.Router();
 const multer = require('multer');
 
 const upload = multer({
-    storage: multer.MemoryStorage
+    storage: multer.MemoryStorage,
+    limits: {
+        fileSize: 5 * 1024 * 1024 // no larger than 5mb
+    }
 });
 
 const login = require('./controllers/LoginController');

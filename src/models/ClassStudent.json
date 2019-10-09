@@ -1,34 +1,32 @@
-{
-    "classes_students": [
-        {
-            "turma_id": 10912,
-            "aluno_id": 98993,
-            "nome": "Matheus Henrique Lopes"
-        },
-        {
-            "turma_id": 10912,
-            "aluno_id": 98994,
-            "nome": "João Santos"
-        },
-        {
-            "turma_id": 10913,
-            "aluno_id": 98993,
-            "nome": "Matheus Henrique Lopes"
-        },
-        {
-            "turma_id": 10913,
-            "aluno_id": 98995,
-            "nome": "José Antonio"
-        },
-        {
-            "turma_id": 10914,
-            "aluno_id": 98994,
-            "nome": "João Santos"
-        },
-        {
-            "turma_id": 10914,
-            "aluno_id": 98995,
-            "nome": "José Antonio"
-        }
-    ]
-}
+[
+    {
+        "turma_id": 10912,
+        "aluno_id": 98993,
+        "nome": "Matheus Henrique Lopes"
+    },
+    {
+        "turma_id": 10912,
+        "aluno_id": 98994,
+        "nome": "João Santos"
+    },
+    {
+        "turma_id": 10913,
+        "aluno_id": 98993,
+        "nome": "Matheus Henrique Lopes"
+    },
+    {
+        "turma_id": 10913,
+        "aluno_id": 98995,
+        "nome": "José Antonio"
+    },
+    {
+        "turma_id": 10914,
+        "aluno_id": 98994,
+        "nome": "João Santos"
+    },
+    {
+        "turma_id": 10914,
+        "aluno_id": 98995,
+        "nome": "José Antonio"
+    }
+]
