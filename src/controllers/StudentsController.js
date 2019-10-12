@@ -60,4 +60,18 @@ module.exports = {
 
         res.json({ url: `https://storage.googleapis.com/trabalho-storage/${gcsname}` });
     },
+
+    trabalho(req, res) {
+        const { work_id } = req.params;
+        let studentsWorks = require('../models/StudentWorks');
+        let work = {};
+
+        for (const item of studentsWorks) {
+            if (item.trabalho_id == work_id) {
+                work = item;
+            }
+        }
+
+        res.json(work);
+    }
 }

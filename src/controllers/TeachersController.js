@@ -23,5 +23,19 @@ module.exports = {
         fs.writeFileSync('src/models/StudentWorks.json', JSON.stringify(studentsWorks, null, 4));
 
         res.json({ ok: true });
+    },
+
+    professor_trabalho(req, res) {
+        const { work_id } = req.params;
+        let studentsWorks = require('../models/StudentWorkClass');
+        let work = {};
+
+        for (const item of studentsWorks) {
+            if (item.trabalho_id == work_id) {
+                work = item;
+            }
+        }
+
+        res.json(work);
     }
 }
