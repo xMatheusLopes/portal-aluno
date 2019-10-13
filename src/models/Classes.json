@@ -16,14 +16,5 @@
         "periodo": "Manhã",
         "dias": "Ter, Qui",
         "professor": 98992
-    },
-    {
-        "turma_id": 10914,
-        "turma": "MgB. T04",
-        "curso": "MongoDB Básico",
-        "materia_atual": "Primeiras queries",
-        "periodo": "Noite",
-        "dias": "Seg, Sex",
-        "professor": 98992
     }
 ]

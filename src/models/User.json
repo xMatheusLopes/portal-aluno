@@ -10,17 +10,5 @@
         "nome": "Matheus",
         "login": "matheus@escola.com.br",
         "professor": false
-    },
-    {
-        "usuario_id": 98994,
-        "nome": "João",
-        "login": "joao@escola.com.br",
-        "professor": false
-    },
-    {
-        "usuario_id": 98995,
-        "nome": "José",
-        "login": "jose@escola.com.br",
-        "professor": false
     }
 ]
