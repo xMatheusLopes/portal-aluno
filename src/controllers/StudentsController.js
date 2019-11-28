@@ -22,9 +22,10 @@ module.exports = {
     },
 
     enviar_arquivo_trabalho(req, res, next) {
+        const credentials = require('../../cloud_credentials.json');
         const { work_id } = req.params;
         const { Storage } = require('@google-cloud/storage');
-        const storage = new Storage();
+        const storage = new Storage({ credentials });
 
         if (!req.file) {
             return next();
