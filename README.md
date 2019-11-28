@@ -6,8 +6,6 @@ Clone into some folder `https://github.com/xMatheusLopes/portal-aluno-backend.gi
 
 Open cloned folder and run `npm install` to install all dependecies
 
-Use the file located in `./cloud_credentials.json` to get Google Cloud credentials and run `$ export GOOGLE_APPLICATION_CREDENTIALS=<path_to_service_account_file>` in terminal
-
 Run `node index` to start the server (if something wrong, see before the observations)
 
 # Observations
